@@ -1,8 +1,8 @@
 # FizzBuzz
 # Write a program that prints the numbers from 1 to 100 and for multiples of '3' print "Fizz" instead of the number and for the multiples of '5' print "Buzz", for multiples of 3 and 5 write Fizz Buzz.
 
-		int limit = 100;
-		for(int num = 1; num <=limit; num++) {
+		int max = 100;
+		for(int num = 1; num <=max; num++) {
 			
 			if (num % 15 == 0) {
 				System.out.print("FizzBuzz" + ",");
